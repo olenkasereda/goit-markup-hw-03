@@ -1,0 +1,206 @@
+:root {
+    --brand-color: #2196F3;
+    --text-color: #212121;
+    --accent-color:#FFFFFF;
+    --footer-color: #2F303A;
+    --button-accent: #F5F4FA;
+    --body-color:#757575;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--body-color);
+}
+/* оформляем index.html */
+.brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color);
+}
+.brand:hover,
+.brand:focus {
+    color: var(--brand-color);
+}
+.brand-web {
+color: var(--text-color);
+}
+.nav {
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.nav-link:hover,
+.nav-link:focus
+ {
+    color: var(--brand-color);
+}
+.nav-link.current{
+    color: var(--brand-color);
+}
+ .address {
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+.address-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--brand-color);
+}
+.title {
+    background-color: var(--footer-color);
+}
+.title-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+ }
+ .title-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--brand-color);
+    cursor: pointer;
+}
+.title-button:hover,
+.title-button:focus {
+    /* color: var(--accent-color); */
+    background-color: #188ce8;
+}
+.features {
+    list-style-type: none;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.features-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.features-descr {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.title-section
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--text-color)
+}
+.work,
+.team {
+    list-style-type: none;
+}
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--text-color)
+}
+.team-desc {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer {
+    background-color: var(--footer-color);
+}
+.brand-web-footer {
+    color: var(--accent-color);
+}
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.footer-address-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+    color: var(--brand-color);
+}
+
+/*  оформляем portfolio.html */
+.filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    list-style-type: none;
+}
+.filters-button {
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    }
+.filters-button:hover,
+.filters-button:focus {
+    background-color: var(--brand-color);
+    color: var(--accent-color);
+    border: none;
+}
+    button.current {
+    color: var(--button-accent);
+    background-color: var(--brand-color);
+}
+.project {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.project-block {
+    list-style-type: none;
+}
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+}
+.progect-descr {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
