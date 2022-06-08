@@ -179,6 +179,7 @@ img {
   color: var(--text-color);
 }
 .teams {
+  margin-top: 94px;
   background-color: var(--section-color);
 }
 .work,
